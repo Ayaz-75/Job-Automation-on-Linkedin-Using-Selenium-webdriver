@@ -26,8 +26,8 @@ time.sleep(5)
 username = driver.find_element(By.ID, "username")
 password = driver.find_element(By.ID, "password")
 
-username.send_keys("hisherhim2022@gmail.com")
-password.send_keys("Hajoo18cs75")
+username.send_keys("Your email")
+password.send_keys("Your password")
 password.send_keys(Keys.ENTER)
 
 
